@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/lordrafa/Rafa/Electronica/ControlesVolante/ControlesVolante.sch</source>
+    <date>Thu 18 Aug 2016 23:05:04 BST</date>
+    <tool>Eeschema 4.0.3-stable</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>ControlesVolante.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="R6">
+      <value>R</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57A738CB</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>R</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57A73D41</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>R</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57A7401B</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>R</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57A74021</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>R</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57A741B3</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>R</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57A741B9</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>1N5818</value>
+      <footprint>Diodes_ThroughHole:Diode_DO-41_SOD81_Horizontal_RM10</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/1N5817-D.PDF</datasheet>
+      <libsource lib="device" part="D_Schottky"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57A74BED</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>1N5818</value>
+      <footprint>Diodes_ThroughHole:Diode_DO-41_SOD81_Horizontal_RM10</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/1N5817-D.PDF</datasheet>
+      <libsource lib="device" part="D_Schottky"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57A75140</tstamp>
+    </comp>
+    <comp ref="SW2">
+      <value>SW_PUSH_V</value>
+      <footprint>Buttons_Switches_ThroughHole:SW_Tactile_SPST_Angled</footprint>
+      <libsource lib="device" part="SW_PUSH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57A7523D</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_PUSH_V</value>
+      <footprint>Buttons_Switches_ThroughHole:SW_Tactile_SPST_Angled</footprint>
+      <libsource lib="device" part="SW_PUSH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57A75475</tstamp>
+    </comp>
+    <comp ref="SW4">
+      <value>SW_PUSH_H</value>
+      <footprint>Buttons_Switches_ThroughHole:SW_Matias_Quiet</footprint>
+      <libsource lib="device" part="SW_PUSH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57A75487</tstamp>
+    </comp>
+    <comp ref="SW5">
+      <value>SW_PUSH_H</value>
+      <footprint>Buttons_Switches_ThroughHole:SW_Matias_Quiet</footprint>
+      <libsource lib="device" part="SW_PUSH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57A756DC</tstamp>
+    </comp>
+    <comp ref="SW3">
+      <value>SW_PUSH_H</value>
+      <footprint>Buttons_Switches_ThroughHole:SW_Matias_Quiet</footprint>
+      <libsource lib="device" part="SW_PUSH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57A757AC</tstamp>
+    </comp>
+    <comp ref="SW6">
+      <value>SW_PUSH_H</value>
+      <footprint>Buttons_Switches_ThroughHole:SW_Matias_Quiet</footprint>
+      <libsource lib="device" part="SW_PUSH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57A90B63</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>FordConn</value>
+      <libsource lib="ControlesVolante-cache" part="FordConn"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57B65928</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="device" part="D_Schottky">
+      <description>Diode schottky</description>
+      <footprints>
+        <fp>D-Pak_TO252AA</fp>
+        <fp>Diode_*</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>*_Diode_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ControlesVolante-cache" part="FordConn">
+      <footprints>
+        <fp>FordConn</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">FordConn</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="power_out"/>
+        <pin num="2" name="2" type="input"/>
+        <pin num="3" name="3" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="SW_PUSH">
+      <description>Button</description>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_PUSH</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
+    </library>
+    <library logical="ControlesVolante-cache">
+      <uri>/home/lordrafa/Rafa/Electronica/ControlesVolante/ControlesVolante-cache.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1"/>
+      <node ref="D2" pin="1"/>
+      <node ref="SW6" pin="2"/>
+    </net>
+    <net code="2" name="Net-(C1-Pad1)">
+      <node ref="R1" pin="2"/>
+      <node ref="C1" pin="1"/>
+      <node ref="SW4" pin="2"/>
+    </net>
+    <net code="3" name="Net-(C1-Pad2)">
+      <node ref="SW6" pin="1"/>
+      <node ref="R6" pin="1"/>
+      <node ref="SW4" pin="1"/>
+      <node ref="SW3" pin="1"/>
+      <node ref="SW5" pin="1"/>
+      <node ref="SW2" pin="1"/>
+      <node ref="SW1" pin="1"/>
+      <node ref="C1" pin="2"/>
+    </net>
+    <net code="4" name="Net-(C1-Pad3)">
+      <node ref="D1" pin="2"/>
+      <node ref="C1" pin="3"/>
+    </net>
+    <net code="5" name="Net-(D2-Pad2)">
+      <node ref="R6" pin="2"/>
+      <node ref="R5" pin="1"/>
+      <node ref="D2" pin="2"/>
+    </net>
+    <net code="6" name="Net-(R4-Pad1)">
+      <node ref="SW1" pin="2"/>
+      <node ref="R5" pin="2"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="7" name="Net-(R3-Pad1)">
+      <node ref="SW2" pin="2"/>
+      <node ref="R4" pin="2"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="8" name="Net-(R2-Pad1)">
+      <node ref="R3" pin="2"/>
+      <node ref="R2" pin="1"/>
+      <node ref="SW5" pin="2"/>
+    </net>
+    <net code="9" name="Net-(R1-Pad1)">
+      <node ref="SW3" pin="2"/>
+      <node ref="R2" pin="2"/>
+      <node ref="R1" pin="1"/>
+    </net>
+  </nets>
+</export>

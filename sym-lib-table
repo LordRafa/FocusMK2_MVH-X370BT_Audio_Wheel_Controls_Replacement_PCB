@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name ControlesVolante-rescue)(type Legacy)(uri ${KIPRJMOD}/ControlesVolante-rescue.lib)(options "")(descr ""))
+)
